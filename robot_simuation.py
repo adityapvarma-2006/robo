@@ -24,7 +24,7 @@ pygame.display.set_caption("Robot Movement Simulation with FPS and Speed Control
 clock = pygame.time.Clock()
 
 # Load the robot image
-robot_image = pygame.image.load('robot.png')  # Replace with your image path
+robot_image = pygame.image.load('robot.png')  # We initialize an image to the variable
 robot_image = pygame.transform.scale(robot_image, (GRID_SIZE, GRID_SIZE))  # Scale image to grid size
 
 # Start the robot at the center of the screen
